@@ -21,6 +21,17 @@
 		CB2F2DC718C01CFD0096E5C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2F2DA918C01CFC0096E5C2 /* UIKit.framework */; };
 		CB2F2DCF18C01CFD0096E5C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB2F2DCD18C01CFD0096E5C2 /* InfoPlist.strings */; };
 		CB2F2DD118C01CFD0096E5C2 /* HangmanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2F2DD018C01CFD0096E5C2 /* HangmanTests.m */; };
+		CB2F2DDF18C01E030096E5C2 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB2F2DDD18C01E030096E5C2 /* words.plist */; };
+		CB2F2DF018C01E1F0096E5C2 /* HangmanPic0.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB2F2DE118C01E1F0096E5C2 /* HangmanPic0.gif */; };
+		CB2F2DF318C01E1F0096E5C2 /* HangmanPic5.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB2F2DE418C01E1F0096E5C2 /* HangmanPic5.gif */; };
+		CB2F2DF418C01E1F0096E5C2 /* HangmanPic6.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB2F2DE518C01E1F0096E5C2 /* HangmanPic6.gif */; };
+		CB2F2DF618C01E1F0096E5C2 /* HangmanPic7.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB2F2DE718C01E1F0096E5C2 /* HangmanPic7.gif */; };
+		CB2F2DFA18C01E1F0096E5C2 /* HangmanPic1.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB2F2DEB18C01E1F0096E5C2 /* HangmanPic1.gif */; };
+		CB2F2DFB18C01E1F0096E5C2 /* HangmanPic2.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB2F2DEC18C01E1F0096E5C2 /* HangmanPic2.gif */; };
+		CB2F2DFC18C01E1F0096E5C2 /* HangmanPic3.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB2F2DED18C01E1F0096E5C2 /* HangmanPic3.gif */; };
+		CB2F2DFD18C01E1F0096E5C2 /* HangmanPic4.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB2F2DEE18C01E1F0096E5C2 /* HangmanPic4.gif */; };
+		CB2F2E0118C028760096E5C2 /* HangmanGame.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2F2E0018C028760096E5C2 /* HangmanGame.m */; };
+		CB2F2E0218C062EB0096E5C2 /* HangmanWords.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2F2DDC18C01E030096E5C2 /* HangmanWords.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,19 @@
 		CB2F2DCC18C01CFD0096E5C2 /* HangmanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HangmanTests-Info.plist"; sourceTree = "<group>"; };
 		CB2F2DCE18C01CFD0096E5C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB2F2DD018C01CFD0096E5C2 /* HangmanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HangmanTests.m; sourceTree = "<group>"; };
+		CB2F2DDB18C01E030096E5C2 /* HangmanWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HangmanWords.h; path = ../Words/HangmanWords.h; sourceTree = "<group>"; };
+		CB2F2DDC18C01E030096E5C2 /* HangmanWords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HangmanWords.m; path = ../Words/HangmanWords.m; sourceTree = "<group>"; };
+		CB2F2DDD18C01E030096E5C2 /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = words.plist; path = ../Words/words.plist; sourceTree = "<group>"; };
+		CB2F2DE118C01E1F0096E5C2 /* HangmanPic0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HangmanPic0.gif; sourceTree = "<group>"; };
+		CB2F2DE418C01E1F0096E5C2 /* HangmanPic5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HangmanPic5.gif; sourceTree = "<group>"; };
+		CB2F2DE518C01E1F0096E5C2 /* HangmanPic6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HangmanPic6.gif; sourceTree = "<group>"; };
+		CB2F2DE718C01E1F0096E5C2 /* HangmanPic7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HangmanPic7.gif; sourceTree = "<group>"; };
+		CB2F2DEB18C01E1F0096E5C2 /* HangmanPic1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HangmanPic1.gif; sourceTree = "<group>"; };
+		CB2F2DEC18C01E1F0096E5C2 /* HangmanPic2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HangmanPic2.gif; sourceTree = "<group>"; };
+		CB2F2DED18C01E1F0096E5C2 /* HangmanPic3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HangmanPic3.gif; sourceTree = "<group>"; };
+		CB2F2DEE18C01E1F0096E5C2 /* HangmanPic4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HangmanPic4.gif; sourceTree = "<group>"; };
+		CB2F2DFF18C028760096E5C2 /* HangmanGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangmanGame.h; sourceTree = SOURCE_ROOT; };
+		CB2F2E0018C028760096E5C2 /* HangmanGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HangmanGame.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +136,11 @@
 		CB2F2DAB18C01CFC0096E5C2 /* Hangman */ = {
 			isa = PBXGroup;
 			children = (
+				CB2F2DFF18C028760096E5C2 /* HangmanGame.h */,
+				CB2F2E0018C028760096E5C2 /* HangmanGame.m */,
+				CB2F2DDB18C01E030096E5C2 /* HangmanWords.h */,
+				CB2F2DDC18C01E030096E5C2 /* HangmanWords.m */,
+				CB2F2DDD18C01E030096E5C2 /* words.plist */,
 				CB2F2DB418C01CFD0096E5C2 /* AppDelegate.h */,
 				CB2F2DB518C01CFD0096E5C2 /* AppDelegate.m */,
 				CB2F2DB718C01CFD0096E5C2 /* Main.storyboard */,
@@ -126,6 +155,7 @@
 		CB2F2DAC18C01CFC0096E5C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB2F2DE018C01E1F0096E5C2 /* image */,
 				CB2F2DAD18C01CFC0096E5C2 /* Hangman-Info.plist */,
 				CB2F2DAE18C01CFC0096E5C2 /* InfoPlist.strings */,
 				CB2F2DB118C01CFC0096E5C2 /* main.m */,
@@ -150,6 +180,22 @@
 				CB2F2DCD18C01CFD0096E5C2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB2F2DE018C01E1F0096E5C2 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CB2F2DE118C01E1F0096E5C2 /* HangmanPic0.gif */,
+				CB2F2DEB18C01E1F0096E5C2 /* HangmanPic1.gif */,
+				CB2F2DEC18C01E1F0096E5C2 /* HangmanPic2.gif */,
+				CB2F2DED18C01E1F0096E5C2 /* HangmanPic3.gif */,
+				CB2F2DEE18C01E1F0096E5C2 /* HangmanPic4.gif */,
+				CB2F2DE418C01E1F0096E5C2 /* HangmanPic5.gif */,
+				CB2F2DE518C01E1F0096E5C2 /* HangmanPic6.gif */,
+				CB2F2DE718C01E1F0096E5C2 /* HangmanPic7.gif */,
+			);
+			name = image;
+			path = ../hangmanImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +274,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB2F2DFB18C01E1F0096E5C2 /* HangmanPic2.gif in Resources */,
+				CB2F2DF618C01E1F0096E5C2 /* HangmanPic7.gif in Resources */,
+				CB2F2DFD18C01E1F0096E5C2 /* HangmanPic4.gif in Resources */,
+				CB2F2DDF18C01E030096E5C2 /* words.plist in Resources */,
+				CB2F2DFC18C01E1F0096E5C2 /* HangmanPic3.gif in Resources */,
 				CB2F2DBE18C01CFD0096E5C2 /* Images.xcassets in Resources */,
 				CB2F2DB018C01CFC0096E5C2 /* InfoPlist.strings in Resources */,
 				CB2F2DB918C01CFD0096E5C2 /* Main.storyboard in Resources */,
+				CB2F2DF418C01E1F0096E5C2 /* HangmanPic6.gif in Resources */,
+				CB2F2DF318C01E1F0096E5C2 /* HangmanPic5.gif in Resources */,
+				CB2F2DF018C01E1F0096E5C2 /* HangmanPic0.gif in Resources */,
+				CB2F2DFA18C01E1F0096E5C2 /* HangmanPic1.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +304,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB2F2E0118C028760096E5C2 /* HangmanGame.m in Sources */,
 				CB2F2DBC18C01CFD0096E5C2 /* ViewController.m in Sources */,
+				CB2F2E0218C062EB0096E5C2 /* HangmanWords.m in Sources */,
 				CB2F2DB618C01CFD0096E5C2 /* AppDelegate.m in Sources */,
 				CB2F2DB218C01CFC0096E5C2 /* main.m in Sources */,
 			);
@@ -460,6 +517,7 @@
 				CB2F2DD618C01CFD0096E5C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB2F2DD718C01CFD0096E5C2 /* Build configuration list for PBXNativeTarget "HangmanTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +526,7 @@
 				CB2F2DD918C01CFD0096E5C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HangmanGame.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate, UIAlertViewDelegate> {
+    HangmanGame* hangmanGame;
+}
+
 
 @end
